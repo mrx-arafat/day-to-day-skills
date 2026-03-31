@@ -1,0 +1,18 @@
+# Security: Never commit these files
+.env
+.env.local
+.env.*.local
+*.token
+*.key
+*.secret
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
